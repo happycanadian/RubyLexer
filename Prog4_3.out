@@ -1,0 +1,12 @@
+Start recognizing a digraph
+Start recognizing a cluster
+Start recognizing an edge statement
+Finish recognizing an edge statement
+Start recognizing an edge statement
+Finish recognizing an edge statement
+Start recognizing an edge statement
+Finish recognizing an edge statement
+Start recognizing an edge statement
+Finish recognizing an edge statement
+Start recognizing an edge statement
+Error: expecting ; or edge, but found: init

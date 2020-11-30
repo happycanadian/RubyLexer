@@ -1,0 +1,11 @@
+digraph trees {
+ rankdir=LR;
+ subgraph t {
+ 0 -> "1" [label = "A"];
+ 0 -> "2" [label = "B"];
+ }
+ SUBGRAPH u {
+ Animal -> Cat [label = "feline", shape="record"];
+ Animal -> Dog1 [label = "canine"];
+ }
+}

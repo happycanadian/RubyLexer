@@ -1,0 +1,20 @@
+digraph G {
+    main -> parse -> execute;
+    main -> init;
+    main -> cleanup;
+    execute -> makeString;
+    execute -> printf
+    init -> makeString;
+    main -> printf;
+    execute -> compare;
+}
+digraph trees { ->
+  subgraph t {
+    0 -> "1" [label = "A"];
+    0 -> "2" [label = "B"];
+  }
+  SUBGRAPH u {
+    Animal -> Cat [label = "feline"];
+    Animal -> Dog1 [label = "canine"];
+  }
+}
